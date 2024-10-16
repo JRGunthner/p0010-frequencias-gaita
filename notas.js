@@ -14,13 +14,20 @@ function gerar_tabela(inicio_oitava, fim_oitava) {
     for (let oitava = inicio_oitava; oitava <= fim_oitava; oitava++) {
         for (const nota of notas) {
             const freq = calcular_frequencia(nota, oitava);
-            tabela.push({ nota: `${nota}${oitava}`, calcular_frequencia: freq });
+            tabela.push({ nota: `${nota}${oitava}`, freq: freq.toFixed(3) });
         }
     }
 
     return tabela;
 }
 
-const tabela = gerar_tabela(0, 10);
+function imprimir_tabela(tabela) {
+    console.log("Nota | Frequência (Hz)");
+    console.log("----------------------");
+    tabela.forEach(({ nota, freq }) => {
+        console.log(`${nota.padEnd(4)} | ${freq.padStart(9)}`);
+    });
+}
 
-console.log(tabela);
+const tabela = gerar_tabela(0, 10);
+imprimir_tabela(tabela);
