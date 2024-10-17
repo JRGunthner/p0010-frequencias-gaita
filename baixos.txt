@@ -1,0 +1,275 @@
+/* 12
+    AM
+a 
+    DM
+d
+    GM
+g
+    CM
+c
+    FM
+f
+    BbM
+bb
+    maior
+fundamental
+*/
+
+/* 16
+    AM
+a 
+    DM
+d
+    GM
+g
+    CM
+c
+    FM
+f
+    BbM
+bb
+    EbM
+eb
+    AbM
+ab
+    maior
+fundamental
+*/
+
+/* 32
+            E7
+        Em
+    EM      A7
+e       Am
+    AM      D7
+a       Dm
+    DM      G7
+d       Gm
+    GM      C7
+g       Cm
+    CM      F7
+c       Fm
+    FM      Bb7
+f       Bbm
+    BbM     Eb7
+bb      Ebm
+    EbM
+eb
+			sétima
+		menor
+	maior
+fundamental
+
+*/
+
+/* 48
+            F#M
+        F#M
+    f#      BM
+a#      BM
+    b       Em
+d#      EM
+    e       Am
+g#      AM
+    a       Dm
+c#      DM
+    d       Gm
+f#      GM
+    g       Cm
+b       CM
+    c       Fm
+e       FM
+    f       Bbm
+a       BbM
+    bb      Ebm
+d       EbM
+    eb      Abm
+g       AbM
+    ab      Dbm
+c       DbM
+    db
+f
+            menor
+        maior
+    fundamental
+contrabaixo
+*/
+
+
+/* 60
+                F#7
+            F#M
+        F#M     B7
+    f#      BM
+a#      BM      E7
+    b       Em
+d#      EM      A7
+    e       Am
+g#      AM      D7
+    a       Dm
+c#      DM      G7
+    d       Gm
+f#      GM      C7
+    g       Cm
+b       CM      F7
+    c       Fm
+e       FM      Bb7
+    f       Bbm
+a       BbM     Eb7
+    bb      Ebm
+d       EbM     Ab7
+    eb      Abm
+g       AbM     Db7
+    ab      Dbm
+c       DbM
+    db
+f
+                sétima
+            menor
+        maior
+    fundamental
+contrabaixo
+*/
+
+/* 80
+                G#7
+            G#m
+        G#M     C#7
+    g#      C#m
+c       C#M     F#7
+    c#      F#M
+f       F#M     B7
+    f#      BM
+a#      BM      E7
+    b       Em
+d#      EM      A7
+    e       Am
+g#      AM      D7
+    a       Dm
+c#      DM      G7
+    d       Gm
+f#      GM      C7
+    g       Cm
+b       CM      F7
+    c       Fm
+e       FM      Bb7
+    f       Bbm
+a       BbM     Eb7
+    bb      Ebm
+d       EbM     Ab7
+    eb      Abm
+g       AbM     Db7
+    ab      Dbm
+c       DbM     Gb7
+    db      Gbm
+f       GbM     B7
+    gb      Bm
+bb      BM
+    b
+eb
+                sétima
+            menor
+        maior
+    fundamental
+contrabaixo
+*/
+
+
+/* 96
+                    G#dim
+                G#7
+            G#m     C#dim
+        G#M     C#7
+    g#      C#m     F#dim
+c       C#M     F#7
+    c#      F#M     B7dim
+f       F#M     B7
+    f#      BM      E7dim
+a#      BM      E7
+    b       Em      A7dim
+d#      EM      A7
+    e       Am      D7dim
+g#      AM      D7
+    a       Dm      G7dim
+c#      DM      G7
+    d       Gm      C7dim
+f#      GM      C7
+    g       Cm      F7dim
+b       CM      F7
+    c       Fm      Bb7dim
+e       FM      Bb7
+    f       Bbm     Eb7dim
+a       BbM     Eb7
+    bb      Ebm     Ab7dim
+d       EbM     Ab7
+    eb      Abm     Db7dim
+g       AbM     Db7
+    ab      Dbm     Gb7dim
+c       DbM     Gb7
+    db      Gbm     B7dim
+f       GbM     B7
+    gb      Bm
+bb      BM
+    b
+eb
+                    diminuta
+                sétima
+            menor
+        maior
+    fundamental
+contrabaixo
+*/
+
+
+/* 120
+                    A#dim
+                A#7
+            A#m     D#dim
+        A#M     D#7
+    a#      D#m     G#dim
+D       D#M     G#7
+    d#      G#m     C#dim
+G       G#M     C#7
+    g#      C#m     F#dim
+c       C#M     F#7
+    c#      F#M     B7dim
+f       F#M     B7
+    f#      BM      E7dim
+a#      BM      E7
+    b       Em      A7dim
+d#      EM      A7
+    e       Am      D7dim
+g#      AM      D7
+    a       Dm      G7dim
+c#      DM      G7
+    d       Gm      C7dim
+f#      GM      C7
+    g       Cm      F7dim
+b       CM      F7
+    c       Fm      Bb7dim
+e       FM      Bb7
+    f       Bbm     Eb7dim
+a       BbM     Eb7
+    bb      Ebm     Ab7dim
+d       EbM     Ab7
+    eb      Abm     Db7dim
+g       AbM     Db7
+    ab      Dbm     Gb7dim
+c       DbM     Gb7
+    db      Gbm     B7dim
+f       GbM     B7
+    gb      Bm      E7dim
+bb      BM      E7
+    b       Em      A7dim
+eb      EM      A7
+    e       Am
+ab      AM
+    a
+db
+                    diminuta
+                sétima
+            menor
+        maior
+    fundamental
+contrabaixo
+*/
