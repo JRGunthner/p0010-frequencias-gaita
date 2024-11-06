@@ -20,7 +20,10 @@ function calcular_frequencias_personalizadas(notas_array) {
     notas_array.forEach(nota_completa => {
         const { nota, oitava } = obter_nota_e_oitava(nota_completa);
         const freq = calcular_frequencia(nota, oitava);
-        tabela.push({ nota: nota_completa, freq: freq.toFixed(4) });
+        tabela.push({
+            nota: nota_completa,
+            freq: freq.toFixed(4)
+        });
     });
 
     return tabela;
@@ -39,9 +42,9 @@ function calcular_frequencias_violin(notas_array, batimento) {
 
         tabela.push({
             nota: nota_completa,
-            freq_central: freq_central.toFixed(4),
-            freq_fundamental: freq_fundamental.toFixed(4),
-            freq_violin: freq_violin.toFixed(4)
+            freq_c_Hz: freq_central.toFixed(4),
+            freq_1_Hz: freq_fundamental.toFixed(4),
+            freq_2_Hz: freq_violin.toFixed(4)
         });
     });
 
@@ -49,13 +52,19 @@ function calcular_frequencias_violin(notas_array, batimento) {
 }
 
 function gerar_tabela_todas_frequencias(inicio_oitava, fim_oitava) {
-    const notas = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+    const notas = [
+        "C", "C#", "D", "D#", "E", "F",
+        "F#", "G", "G#", "A", "A#", "B"
+    ];
     const tabela = [];
 
     for (let oitava = inicio_oitava; oitava <= fim_oitava; oitava++) {
         for (const nota of notas) {
             const freq = calcular_frequencia(nota, oitava);
-            tabela.push({ nota: `${nota}${oitava}`, freq: freq.toFixed(4) });
+            tabela.push({
+                nota: `${nota}${oitava}`,
+                freq: freq.toFixed(4)
+            });
         }
     }
 
@@ -64,29 +73,17 @@ function gerar_tabela_todas_frequencias(inicio_oitava, fim_oitava) {
 
 function imprimir_tabela(tabela, msg) {
     console.log(`\n${msg}`);
-    console.log("Nota | Frequência (Hz)");
-    console.log("----------------------");
-    tabela.forEach(({ nota, freq }) => {
-        console.log(`${nota.padEnd(4)} | ${freq.padStart(10)}`);
-    });
+    console.table(tabela);
 }
 
 function imprimir_tabela_violin(tabela, msg) {
     console.log(`\n${msg}`);
-    console.log("Nota | Fc (Hz)    | F1 (Hz)    | F2 (Hz)");
-    console.log("-------------------------------------------");
-    tabela.forEach(({ nota, freq_central, freq_fundamental, freq_violin }) => {
-        const not = nota.padEnd(4);
-        const freq_c = freq_central.padStart(10);
-        const freq_f = freq_fundamental.padStart(10);
-        const freq_v = freq_violin.padStart(10);
-        console.log(`${not} | ${freq_c} | ${freq_f} | ${freq_v}`);
-    });
+    console.table(tabela);
 }
 
 let msg = "Tabela de frequências de notas musicais:";
 const tabela = gerar_tabela_todas_frequencias(0, 10);
-//imprimir_tabela(tabela, msg);
+imprimir_tabela(tabela, msg);
 
 msg = "Notas ponto_g_c_21_8:";
 const notas_ponto_g_c_21_8 = [
@@ -97,10 +94,9 @@ const notas_ponto_g_c_21_8 = [
     "C6", "D6", "E6"
 ];
 const tabela_ponto_g_c_21_8 = calcular_frequencias_personalizadas(notas_ponto_g_c_21_8);
-//imprimir_tabela(tabela_ponto_g_c_21_8, msg);
+imprimir_tabela(tabela_ponto_g_c_21_8, msg);
 
-const batimentos = 1;
+const batimentos = 2.5;
 msg = `Notas ponto_g_c_21_8 com vibrato, batimento = ${batimentos}/s`;
 const tabela_ponto_g_c_21_8_violin = calcular_frequencias_violin(notas_ponto_g_c_21_8, batimentos);
 imprimir_tabela_violin(tabela_ponto_g_c_21_8_violin, msg);
-
