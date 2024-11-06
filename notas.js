@@ -81,10 +81,12 @@ function imprimir_tabela_violin(tabela, msg) {
     console.table(tabela);
 }
 
+//////////////////////////////////////////////////////////////////////
 let msg = "Tabela de frequências de notas musicais:";
 const tabela = gerar_tabela_todas_frequencias(0, 10);
 imprimir_tabela(tabela, msg);
 
+//////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_g_c_21_8:";
 const notas_ponto_g_c_21_8 = [
                                                "B2",
@@ -100,3 +102,15 @@ const batimentos = 2.5;
 msg = `Notas ponto_g_c_21_8 com vibrato, batimento = ${batimentos}/s`;
 const tabela_ponto_g_c_21_8_violin = calcular_frequencias_violin(notas_ponto_g_c_21_8, batimentos);
 imprimir_tabela_violin(tabela_ponto_g_c_21_8_violin, msg);
+
+//////////////////////////////////////////////////////////////////////
+msg = "Notas ponto_d_g_21_8:";
+const notas_ponto_d_g_21_8 = [
+                             "F#2",       "A2", "B2",
+          "C#3", "D3", "E3", "F#3", "G3", "A3", "B3",
+    "C4", "C#4", "D4", "E4", "F#4", "G4", "A4", "B4",
+    "C5", "C#5", "D5", "E5", "F#5", "G5", "A5", "B5"
+];
+
+const tabela_ponto_d_g_21_8 = calcular_frequencias_personalizadas(notas_ponto_d_g_21_8);
+imprimir_tabela(tabela_ponto_d_g_21_8, msg);
