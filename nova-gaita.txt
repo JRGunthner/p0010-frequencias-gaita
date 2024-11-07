@@ -13,38 +13,6 @@ la/mi   - c4  d   e   f4  g4  a   b   c4 - c4  d4  e   f4  g4  a   b   c4
 do/fa   - c   d   e   f   g   a   b   c  - c   d   e   f   g   a   a4  c
 Sib     - c   d   d4  f   g   a   a4  c
 
-c c4 d d4 e f f4 g g4 a a4 b
-1   2   3   4   5   6   7   8
-  t   t   s   t   t   t   s
-c   d   e   f   g   a   b   c
-c4  d4  f   f4  g4  a4  c   c4
-d   e   f4  g   a   b   c4  d
-d4  f   g   g4  a4  c   d   d4
-e   f4  g4  a   b   c4  d4  e
-f   g   a   a4  c   d   e   f
-f4  g4  a4  b   c4  d4  f   f4
-g   a   b   c   d   e   f4  g
-g4  a4  c   c4  d4  f   g   g4
-a   b   c4  d   e   f4  g4  a
-a4  c   d   d4  f   g   a   a4
-b   c4  d4  e   f4  g4  a4  b
-
-1   2   3   4   5   6   7   8
-  t   s   t   t   s   t   t
-c   d   d4  f   g   g4  a4  c
-c4  d4  e   f4  g4  a   b   c4
-d   e   f   g   a   a4  c   d
-d4  f   f4  g4  a4  b   c4  d4
-e   f4  g   a   b   c   d   e
-f   g   g4  a4  c   c4  d4  f
-f4  g4  a   b   c4  d   e   f4
-g   a   a4  c   d   d4  f   g
-g4  a4  b   c4  d4  e   f4  g4
-a   b   c   d   e   f   g   a
-a4  c   c4  d4  f   f4  g4  a4
-b   c4  d   e   f4  g   a   b
-
-
  G g C c     G g  C c
  E e F f     E e Bm b
 --------    ---------
@@ -88,20 +56,6 @@ c c4 d d4 e f f4 g g4 a a4 b
 3 3  3 3  3 3 3  4 3  3 3  3
 
 >--<
-
-c   d   e   f   g   a   b   c
-c4  d4  f   f4  g4  a4  c   c4
-d   e   f4  g   a   b   c4  d
-d4  f   g   g4  a4  c   d   d4
-e   f4  g4  a   b   c4  d4  e
-f   g   a   a4  c   d   e   f
-f4  g4  a4  b   c4  d4  f   f4
-g   a   b   c   d   e   f4  g
-g4  a4  c   c4  d4  f   g   g4
-a   b   c4  d   e   f4  g4  a
-a4  c   d   d4  f   g   a   a4
-b   c4  d4  e   f4  g4  a4  b
-
 c c4 d d4 e f f4 g g4 a a4 b
 3    3
 
