@@ -1,0 +1,43 @@
+fechando
+--------
+abrindo
+
+ C2 c2 F1  f1
+ A1 a1 A#1 a#1
+---------------
+ G1 g1 C2  c2
+D2m d2 A#1 a#1
+
+   a2   c3   f3   a3   c4   f4   a4   c5   f5   a5
+e2   g2   c3   e3   g3   c4   e4   g4   c5   e5   g5
+------------------------------------------------------
+   c3   e3   g3   a#3  c4   e4   g4   a#4  c5   e5
+g2   b2   d3   f3   a3   b3   d4   f4   a4   b4   d5
+
+
+e2
+g2
+a2
+b2
+c3
+d3
+e3
+f3
+g3
+a3
+a#3
+b3
+c4
+d4
+e4
+f4
+g4
+a4
+a#4
+b4
+c5
+d5
+e5
+f5
+g5
+a5

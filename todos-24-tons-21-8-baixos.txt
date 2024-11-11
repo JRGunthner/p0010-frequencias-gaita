@@ -9,7 +9,7 @@ D2m d2 A#1 a#1
 // C#/F#
 f#1  g#1  a#1  b1   c#2  d#2  f2   f#2
  C#2 c#2 F#1 f#1
- A#1 a#1 44  B1
+ A#1 a#1 B1  b1
 -----------------
  G#1 g#1 C#2 c#2
 D#2m d#2 B1  b1
@@ -17,10 +17,10 @@ D#2m d#2 B1  b1
 // D/G
 g1   a1   b1   c2   d2   e2   f#2  g2
  D2 d2 G1 g1
-B1m b1 C2 c2
+ B1 b1 C2 c2
 -----------------
  A1 a1 D2 d2
- E2 e2 C2 c2
+E2m e2 C2 c2
 
 // D#/G#
 g#1  a#1  c2   c#2  d#2  f2   g2  g#2
@@ -28,19 +28,19 @@ D#2 d#2 G#1 g#1
  C2 c2  C#2 c#2
 -----------------
 A#1 a#1 D#2 d#2
-66m f2  C#2 c#2
+F2m f2  C#2 c#2
 
 // E/A
 a1   b1   c#2  d2   e2   f#2  g#2  a2
-  55 e2  A1 a1
+  E2 e2  A1 a1
  C#2 c#2 D2 d2
 -----------------
-  B1 b1  55 e2
+  B1 b1  E2 e2
 F#2m f#2 D2 d2
 
 // F/A#
 a#1  c2   d2   d#2  f2   g2   a2   a#2
- 55 f2 A#1 a#1
+ F2 f2 A#1 a#1
  D2 d2 D#2 d#2
 -----------------
  C2 c2 F2  f2
