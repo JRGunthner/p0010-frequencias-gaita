@@ -2,14 +2,42 @@ fechando
 --------
 abrindo
 
- A3 a3  D2 d2
+ A2 a2  D2 d2
 F#2 f#2 G2 g2
 -----------------
- E2 e2  A3 a3
-B3m b3  G2 g2
+ E2 e2  A2 a2
+B2m b2  G2 g2
 
    f#3  a3   d4   f#4  a4   d5   f#5  a5   d6   f#6
 c#3  e3   a3   c#4  e4   a4   c#5  e5   a5   c#6  e6
 ------------------------------------------------------
    a3   c#4  e4   g4   a4   c#5  e5   g5   a5   c#6
 e3   g#3  b3   d4   f#4  g#4  b4   d5   f#5  g#5  b5
+
+
+c#3
+e3
+f#3
+g#3
+a3
+b3
+c#4
+d4
+e4
+f#4
+g4
+g#4
+a4
+b4
+c#5
+d5
+e5
+f#5
+g5
+g#5
+a5
+b5
+c#6
+d6
+e6
+f#6
