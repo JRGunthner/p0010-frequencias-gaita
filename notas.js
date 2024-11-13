@@ -133,10 +133,10 @@ imprimir_tabela(tabela_ponto_d_g_21_8, msg);
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_d#_g#_21_8:";
 const notas_ponto_d_sus_g_sus_21_8 = [
-                                    "G2",        "G#2",
-    "C3",        "D3", "D#3", "F3", "G3", "G#3", "G#3",
-    "C4", "C#4", "D4", "D#4", "F4", "G4", "G#4", "G#4",
-    "C5", "C#5", "D5", "D#5", "F5", "G5", "G#5", "G#5",
+                                    "G2",        "A#2",
+    "C3",        "D3", "D#3", "F3", "G3", "G#3", "A#3",
+    "C4", "C#4", "D4", "D#4", "F4", "G4", "G#4", "A#4",
+    "C5", "C#5", "D5", "D#5", "F5", "G5", "G#5", "A#5",
     "C6"
 ];
 
@@ -172,11 +172,11 @@ imprimir_tabela(tabela_f_a_sus_21_8, msg);
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_f#_b_21_8:";
 const notas_ponto_f_sus_b_21_8 = [
-                                         "A2",
-    "C3", "D3",        "E3", "F3", "G3", "A3", "A#3",
-    "C4", "D4", "D#4", "E4", "F4", "G4", "A4", "A#4",
-    "C5", "D5", "D#5", "E5", "F5", "G5", "A5", "A#5",
-    "C6", "D6"
+                                            "A#2",
+    "C#3", "D#3",       "F3", "F#3", "G#3", "A#3", "B3",
+    "C#4", "D#4", "E4", "F4", "F#4", "G#4", "A#4", "B4",
+    "C#5", "D#5", "E5", "F5", "F#5", "G#5", "A#5", "B5",
+    "C#6", "D#6"
 ];
 
 const tabela_f_sus_b_21_8 = calcular_frequencias_personalizadas(notas_ponto_f_sus_b_21_8);
@@ -206,7 +206,10 @@ imprimir_tabela_violin(tabela_ponto_g_c_21_8_violin, msg);
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_g#_c#_21_8:";
 const notas_ponto_g_sus_c_sus_21_8 = [
-    
+    "C3",        "D#3", "F3",        "G3", "G#3", "A#3",
+    "C4", "C#4", "D#4", "F4", "F#4", "G4", "G#4", "A#4",
+    "C5", "C#5", "D#5", "F5", "F#5", "G5", "G#5", "A#5",
+    "C6", "C#6", "D#6", "F6"
 ];
 
 const tabela_g_sus_c_sus_21_8 = calcular_frequencias_personalizadas(notas_ponto_g_sus_c_sus_21_8);
@@ -215,10 +218,10 @@ imprimir_tabela(tabela_g_sus_c_sus_21_8, msg);
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_a_d_21_8:";
 const notas_ponto_a_d_21_8 = [
-    "c#3",       "e3", "f#3",       "g#3", "a3", "b3",
-    "c#4", "d4", "e4", "f#4", "g4", "g#4", "a4", "b4",
-    "c#5", "d5", "e5", "f#5", "g5", "g#5", "a5", "b5",
-    "c#6", "d6", "e6", "f#6"
+    "C#3",       "E3", "F#3",       "G#3", "A3", "B3",
+    "C#4", "D4", "E4", "F#4", "G4", "G#4", "A4", "B4",
+    "C#5", "D5", "E5", "F#5", "G5", "G#5", "A5", "B5",
+    "C#6", "D6", "E6", "F#6"
 ];
 
 const tabela_a_d_21_8 = calcular_frequencias_personalizadas(notas_ponto_a_d_21_8);
@@ -227,10 +230,10 @@ imprimir_tabela(tabela_a_d_21_8, msg);
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_a#_d#_21_8:";
 const notas_ponto_a_sus_d_sus_21_8 = [
-          "d3",        "f3", "g3",        "a3", "a#3",
-    "c4", "d4", "d#4", "f4", "g4", "g#4", "a4", "a#4",
-    "c5", "d5", "d#5", "f5", "g5", "g#5", "a5", "a#5",
-    "c6", "d6", "d#6", "f6", "g6"
+          "D3",        "F3", "G3",        "A3", "A#3",
+    "C4", "D4", "D#4", "F4", "G4", "G#4", "A4", "A#4",
+    "C5", "D5", "D#5", "F5", "G5", "G#5", "A5", "A#5",
+    "C6", "D6", "D#6", "F6", "G6"
 ];
 
 const tabela_a_sus_d_sus_21_8 = calcular_frequencias_personalizadas(notas_ponto_a_sus_d_sus_21_8);
@@ -239,10 +242,10 @@ imprimir_tabela(tabela_a_sus_d_sus_21_8, msg);
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_b_e_21_8:";
 const notas_ponto_b_e_21_8 = [
-           "d#3",       "f#3", "g#3", "a3",        "b3",
-    "c#4", "d#4", "e4", "f#4", "g#4", "a4", "a#4", "b4",
-    "c#5", "d#5", "e5", "f#5", "g#5", "a5", "a#5", "b5",
-    "c#6", "d#6", "e6", "f#6", "g#6"
+           "D#3",       "F#3", "G#3", "A3",        "B3",
+    "C#4", "D#4", "E4", "F#4", "G#4", "A4", "A#4", "B4",
+    "C#5", "D#5", "E5", "F#5", "G#5", "A5", "A#5", "B5",
+    "C#6", "D#6", "E6", "F#6", "G#6"
 ];
 
 const tabela_b_e_21_8 = calcular_frequencias_personalizadas(notas_ponto_b_e_21_8);
