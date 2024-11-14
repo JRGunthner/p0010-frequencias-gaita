@@ -1,0 +1,27 @@
+Tabela Para Calibragem de Palhetas
+
+Nos comprimentos descritos abaixo, leva-se em consideração somente
+a palheta, sem cabeça da palheta.
+
+Até 14mm    lâmina de 0,05
+Até 18mm    lâmina de 0,10
+Até 21mm    lâmina de 0,15
+Até 25mm    lâmina de 0,20
+Até 28mm    lâmina de 0,25
+Até 32mm    lâmina de 0,30
+Até 36mm    lâmina de 0,40
+Até 39mm    lâmina de 0,50
+Ate 43,5mm  lâmina de 0,60
+
+Palhetas com carga  lâmina de 0,60 a 0,70
+Baixo menor com carga   lâmina de 0,70
+Baixo menor sem carga   lâmina de 0,60
+Baixo maior com carga   lâmina de 0,80
+Baixo maior sem carga   lâmina de 0,70
+
+CALIBRAGEM REAL
+
+A calibragem por Calibre de válvulas é usado como um parâmetro,
+a calibragem real das vozes se dá em dois momentos, na afinação e
+depois no retoque. Sempre tendo a preocupação que elas deverão tocar
+perfeitamente com baixa ou alta pressão de ar.
