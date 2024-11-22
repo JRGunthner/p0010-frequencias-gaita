@@ -16,6 +16,15 @@ G2   A#2  D#3  G3   A#3  D#4  G4   A#4  D#5  G5   A#5
    D#3  G3   A#3  C#4  D#4  G4   A#4  C#5  D#5  G5
 A#2  D3   F3   G#3  C4   D4   F4   G#4  C5   D5   F5
 
+Baixos
+Nota | Frequência (Hz) | Acorde
+------------------------------------------
+G#1  │    51,9131      | G#1 C2 D#2
+A#1  │    58,2705      | A#1 D2 F2
+C2   │    65,4064      | C2 E2 G2
+C#2  │    69,2957      | C#2 F2 G#2
+D#2  │    77,7817      | D#2 G2 A#2
+F2   │    87,3071      | F2 G#2 C3 (menor)
 
 Nota | Frequência (Hz)
 ----------------------

@@ -18,13 +18,13 @@ D3   F#3  A3   C4   E4   F#4  A4   C5   E5   F#5  A5
 
 Baixos
 Nota | Frequência (Hz) | Acorde
---------------------------------
+------------------------------------------
 C2   |    65,4064      | C2 E2 G2
 D2   |    73,4162      | D2 F#2 A2
 E2   |    82,4069      | E2 G#2 B2
 F2   |    87,3071      | F2 A2 C3
 G2   |    97,9989      | G2 B2 D3
-A2   |   110,0000      | A2 C3 E3
+A2   |   110,0000      | A2 C3 E3 (menor)
 
 Todas notas dos Baixos
 Nota | Frequência (Hz)
