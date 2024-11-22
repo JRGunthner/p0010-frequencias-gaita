@@ -92,6 +92,9 @@ const tabela = gerar_tabela_todas_frequencias(0, 10);
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_c_f_21_8:";
 const notas_ponto_c_f_21_8 = [
+                      "F1", "G1", "A1", "A#1", "B1",
+    "C2", "C#2", "D2", "E2", "F2", "G2", "A2",
+
                       "F1", "G1", "A1", "A#1",
     "C2", "D2",
                 "E2",       "G2", "A2",        "B2",
@@ -101,7 +104,7 @@ const notas_ponto_c_f_21_8 = [
 ];
 
 const tabela_ponto_c_f_21_8 = calcular_frequencias_personalizadas(notas_ponto_c_f_21_8);
-//imprimir_tabela(tabela_ponto_c_f_21_8, msg);
+imprimir_tabela(tabela_ponto_c_f_21_8, msg);
 
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_c#_f#_21_8:";
