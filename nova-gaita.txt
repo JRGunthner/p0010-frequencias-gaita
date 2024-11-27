@@ -102,3 +102,12 @@ f3 g3 b3 d4 f4 g4 b4 d5 f5 g5 b5 d6 f6 g6
     d3 f3 g3 b3 d4 f4 g4 b4 d5 f5 g5 b5 d6 f6 g6 b6 d7
   a2 c3 e3 F3 a3 c4 e4 F4 a4 c5 e5 F5 a5 c6 e6 F6 a6 c7
 */
+
+// Nova apartir de uma G/C toda voz trocada
+   F3   A3   F#3  F4   A4   F#4  F5   A5   F#5  F6   A6   F#6  F7
+C3   E3   G3   C4   E4   G4   C5   E5   G5   C6   E6   G6   C7   E7
+   B2   D3   G3   B3   D4   G4   B4   D5   G5   B5   D6   G6   B6
+----------------------------------------------------------------------
+   A#3  C#4  D#4  G#4  A#4  C#5  D#5  G#5  A#5  C#6  D#6  G#6  A#6
+F3   G3   B3   D4   F4   G4   B4   D5   F5   G5   B5   D6   F6   G6
+   D2   F#3  A3   C4   E4   F#4  A4   C5   E5   F#5  A5   C6   E6
