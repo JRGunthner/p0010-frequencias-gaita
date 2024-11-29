@@ -42,6 +42,49 @@ D3   │   146,8324
 E3   │   164,8138
 F#3  │   184,9972
 
+Acorde D2
+Nota | Frequência (Hz)
+----------------------
+D2
+F#2
+A2
+
+Acorde E2
+Nota | Frequência (Hz)
+----------------------
+E2
+G#2
+B2
+
+Acorde F#2
+Nota | Frequência (Hz)
+----------------------
+F#2
+A#2
+C#3
+
+Acorde G2
+Nota | Frequência (Hz)
+----------------------
+G2
+B2
+D3
+
+Acorde A2
+Nota | Frequência (Hz)
+----------------------
+A2
+C#3
+E3
+
+Acorde B2 menor
+Nota | Frequência (Hz)
+----------------------
+B2
+D3
+F#3
+
+
 Todas notas da melodia
 Nota | Frequência (Hz)
 ----------------------

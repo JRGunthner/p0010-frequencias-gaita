@@ -42,6 +42,48 @@ G#2  │   103,8262
 A#2  │   116,5409
 C3   │   130,8128
 
+Acorde G#1
+Nota | Frequência (Hz)
+----------------------
+G#1
+C2
+D#2
+
+Acorde A#1
+Nota | Frequência (Hz)
+----------------------
+A#1
+D2
+F2
+
+Acorde C2
+Nota | Frequência (Hz)
+----------------------
+C2
+E2
+G2
+
+Acorde C#2
+Nota | Frequência (Hz)
+----------------------
+C#2
+F2
+G#2
+
+Acorde D#2
+Nota | Frequência (Hz)
+----------------------
+D#2
+G2
+A#2
+
+Acorde F2 menor
+Nota | Frequência (Hz)
+----------------------
+F2
+G#2
+C3
+
 Todas notas da melodia
 Nota | Frequência (Hz)
 ----------------------
