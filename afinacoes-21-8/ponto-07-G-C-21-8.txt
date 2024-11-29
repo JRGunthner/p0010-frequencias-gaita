@@ -84,6 +84,7 @@ A2   |   110,0000
 C3   |   130,8128
 E3   |   164,8138
 
+Todas notas da melodia
 Nota | Frequência (Hz)
 ----------------------
 B2   |   123,4708

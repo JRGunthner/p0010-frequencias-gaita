@@ -92,7 +92,7 @@ const tabela = gerar_tabela_todas_frequencias(0, 10);
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_c_f_21_8:";
 const notas_ponto_c_f_21_8 = [
-                      "F1", "G1", "A1", "A#1", "B1",
+                             "F1", "G1", "A1", "A#1", "B1",
     "C2", "C#2", "D2", "E2", "F2", "G2", "A2",
 
                       "F1", "G1", "A1", "A#1",
@@ -104,11 +104,14 @@ const notas_ponto_c_f_21_8 = [
 ];
 
 const tabela_ponto_c_f_21_8 = calcular_frequencias_personalizadas(notas_ponto_c_f_21_8);
-imprimir_tabela(tabela_ponto_c_f_21_8, msg);
+//imprimir_tabela(tabela_ponto_c_f_21_8, msg);
 
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_c#_f#_21_8:";
 const notas_ponto_c_sus_f_sus_21_8 = [
+                                    "F#1", "G#1", "A#1", "B1",
+    "C2", "C#2", "D2", "D#2", "F2", "F#2", "G#2", "A#2",
+
                               "F#1", "G#1", "A#1", "B1",
           "C#2", "D#2",
                         "F2",        "G#2", "A#2",
@@ -124,7 +127,7 @@ const tabela_c_sus_f_sus_21_8 = calcular_frequencias_personalizadas(notas_ponto_
 msg = "Notas ponto_d_g_21_8:";
 const notas_ponto_d_g_21_8 = [
                                            "G1", "A1", "B1",
-    "C2", "C#2", "D2", "D#2", "E2", "F#2", "G2", "A2", "B2", 
+    "C2", "C#2", "D2", "D#2", "E2", "F#2", "G2", "A2", "B2",
 
                                     "G1", "A1", "B1",
     "C2",        "D2", "E2",
@@ -140,6 +143,10 @@ const tabela_ponto_d_g_21_8 = calcular_frequencias_personalizadas(notas_ponto_d_
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_d#_g#_21_8:";
 const notas_ponto_d_sus_g_sus_21_8 = [
+                                                "G#1", "A#1",
+    "C2", "C#2", "D2", "D#2", "E2", "F2", "G2", "G#2", "A#2",
+    "C3",
+
                                           "G#1", "A#1",
     "C2", "C#2", "D#2",       "F2",
                                     "G2",        "A#2",
@@ -155,6 +162,10 @@ const tabela_d_sus_g_sus_21_8 = calcular_frequencias_personalizadas(notas_ponto_
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_e_a_21_8:";
 const notas_ponto_e_a_21_8 = [
+                                                  "A1", "B1",
+    "C#2", "D2", "D#2", "E2", "F2", "F#2", "G#2", "A2", "B3",
+    "C#3",
+
                                             "A1", "B1",
     "C#2", "D2",        "E2", "F#2",
                                      "G#2",       "B2",
@@ -170,6 +181,10 @@ const tabela_e_a_21_8 = calcular_frequencias_personalizadas(notas_ponto_e_a_21_8
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_f_a#_21_8:";
 const notas_ponto_f_a_sus_21_8 = [
+                                                      "A#1",
+    "C2", "D2", "D#2", "E2", "F2", "G2", "F#2", "A2", "A#2",
+    "C3", "D3",
+
                                                "A#1",
     "C2", "D2", "D#2", "F2",       "G2",
                                          "A2",
@@ -185,6 +200,10 @@ const tabela_f_a_sus_21_8 = calcular_frequencias_personalizadas(notas_ponto_f_a_
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_f#_b_21_8:";
 const notas_ponto_f_sus_b_21_8 = [
+                                                         "B1",
+    "C#2", "D#2", "E2", "F2", "F#2", "G2", "G#2", "A#2", "B2",
+    "C#3", "D#3",
+
                                                    "B1",
     "C#2", "D#2", "E2",       "F#2", "G#2",
                                             "A#2",
@@ -221,6 +240,9 @@ const tabela_ponto_g_c_21_8_violin = calcular_frequencias_violin(notas_ponto_g_c
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_g#_c#_21_8:";
 const notas_ponto_g_sus_c_sus_21_8 = [
+          "C#2", "D#2", "F2", "F#2", "G2", "G#2", "A2", "A#2",
+    "C3", "C#3", "D#3", "F3",
+
           "C#2", "D#2", "F2", "F#2",       "G#2", "A#2",
     "C3",        "D#3", "F3",        "G3", "G#3", "A#3",
     "C4", "C#4", "D#4", "F4", "F#4", "G4", "G#4", "A#4",
@@ -234,6 +256,9 @@ const tabela_g_sus_c_sus_21_8 = calcular_frequencias_personalizadas(notas_ponto_
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_a_d_21_8:";
 const notas_ponto_a_d_21_8 = [
+           "D2", "E2", "F#2", "G2", "G#2", "A2", "A#2", "B2",
+    "C#3", "D3", "E3", "F#3",
+
            "D2", "E2", "F#2", "G2",        "A2", "B2",
     "C#3",       "E3", "F#3",       "G#3", "A3", "B3",
     "C#4", "D4", "E4", "F#4", "G4", "G#4", "A4", "B4",
@@ -247,6 +272,9 @@ const tabela_a_d_21_8 = calcular_frequencias_personalizadas(notas_ponto_a_d_21_8
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_a#_d#_21_8:";
 const notas_ponto_a_sus_d_sus_21_8 = [
+                "D#2", "F2", "G2", "G#2", "A2", "A#2", "B2",
+    "C3", "D3", "D#3", "F3", "G3",
+
                 "D#2", "F2", "G2", "G#2",       "A#2",
     "C3",
           "D3",        "F3", "G3",        "A3", "A#3",
@@ -261,6 +289,9 @@ const tabela_a_sus_d_sus_21_8 = calcular_frequencias_personalizadas(notas_ponto_
 //////////////////////////////////////////////////////////////////////
 msg = "Notas ponto_b_e_21_8:";
 const notas_ponto_b_e_21_8 = [
+                        "E2", "F#2", "G#2", "A2", "A#2", "B2",
+    "C3", "C#3", "D#3", "E3", "F#3", "G#3",
+
                   "E2", "F#2", "G#2", "A2",        "B2",
     "C#3",
            "D#3",       "F#3", "G#3", "A3",        "B3",

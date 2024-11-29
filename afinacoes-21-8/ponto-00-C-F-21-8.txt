@@ -26,7 +26,6 @@ A#1  │    58,2705      | A#1 D2 F2
 C2   │    65,4064      | C2 E2 G2
 D2   │    73,4162      | D2 F2 A2 (menor)
 
-
 Todas notas dos Baixos
 Nota | Frequência (Hz)
 ----------------------
@@ -43,6 +42,7 @@ F2   │    87,3071
 G2   │    97,9989
 A2   │   110,0000
 
+Todas notas da melodia
 Nota | Frequência (Hz)
 ----------------------
 E2   │    82,4069

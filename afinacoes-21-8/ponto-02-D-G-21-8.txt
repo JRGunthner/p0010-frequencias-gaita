@@ -84,6 +84,7 @@ E2   |    82,4069
 G2   |    97,9989
 B2   |   123,4708
 
+Todas notas da melodia
 Nota | Frequência (Hz)
 ----------------------
 F#2  |    92,4986
