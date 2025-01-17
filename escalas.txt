@@ -65,3 +65,46 @@ g#  a#  b   c#  d#  e   f#  g#
 a   b   c   d   e   f   g   a
 b♭  c   d♭  e♭  f   g♭  a♭  b♭
 b   c#  d   e   f#  g   a   b
+
+Escala maior em ordem
+-------------------------------
+c  : c   d   e   f   g   a   b
+c# : c   c#  d#  f   f#  g#  a#
+d  : c#  d   e   f#  g   a   b
+d# : c   d   d#  f   g   g#  a#
+e  : c#  d#  e   f#  g#  a   b
+f  : c   d   e   f   g   a   a#
+f# : c#  d#  f   f#  g#  a#  b
+g  : c   d   e   f#  g   a   b
+g# : c   c#  d#  f   g   g#  a#
+a  : c#  d   e   f#  g#  a   b
+a# : c   d   d#  f   g   a   a#
+b  : c#  d#  e   f#  g#  a#  b
+
+c  : c   d   e   f   g   a   b
+c# : c   d♭  e♭  f   g♭  a♭  b♭
+d  : c#  d   e   f#  g   a   b
+d# : c   d   e♭  f   g   a♭  b♭
+e  : c#  d#  e   f#  g#  a   b
+f  : c   d   e   f   g   a   b♭
+f# : c#  d#  f   f#  g#  a#  b
+g  : c   d   e   f#  g   a   b
+g# : c   d♭  e♭  f   g   a♭  b♭
+a  : c#  d   e   f#  g#  a   b
+a# : c   d   e♭  f   g   a   b♭
+b  : c#  d#  e   f#  g#  a#  b
+
+Equivalências entre a escala maior e menor
+-------------------------------
+C        :Am
+C# ou Db :A#m ou Bbm
+D        :Bm  ou Cbm
+D# ou Eb :Cm
+E  ou Fb :C#m ou Dbm
+F        :Dm
+F# ou Gb :D#m ou Ebm
+G        :Em  ou Fbm
+G# ou Ab :Fm
+A        :F#m ou Gbm
+A# ou Bb :Gm
+B  ou Cb :G#m ou Abm

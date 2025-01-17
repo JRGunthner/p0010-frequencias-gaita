@@ -1,4 +1,6 @@
 // Notas ponto_e_a_21_8:
+// E/A : C#m/F#m
+// Fb/A : Dbm/Gb
 
 fechando
 --------

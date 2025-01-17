@@ -1,4 +1,6 @@
 // Notas ponto_f_a#_21_8:
+// F/A# : Dm/Gm
+// F/Bb : Dm/Gm
 
 fechando
 --------

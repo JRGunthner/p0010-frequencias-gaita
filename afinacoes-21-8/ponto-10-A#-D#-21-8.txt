@@ -1,4 +1,6 @@
 // Notas ponto_a#_d#_21_8:
+// A#/D# : Gm/Cm
+// Bb/Eb : Gm/Cm
 
 fechando
 --------

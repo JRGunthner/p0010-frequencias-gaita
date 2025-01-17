@@ -1,4 +1,6 @@
 // Notas ponto_c#_f#_21_8:
+// C#/F# : A#m/D#m
+// Db/Gb : Bb/Ebm
 
 fechando
 --------
